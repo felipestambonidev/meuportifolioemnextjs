@@ -33,7 +33,7 @@ export default function MenuLateral() {
             </div>
           </button>
           <button className="bg-orange-500 text-white py-2 lg:text-[13px] flex px-4 rounded">
-            <Link href="https://github.com/felipestambonidev">My GitHub</Link>
+            <Link href="https://github.com/felipestambonidev">Meu GitHub</Link>
             <div className="pl-3 pt-1 sm:pt-0 justify-center text-[17px]">
               <VscGithubInverted />
             </div>
