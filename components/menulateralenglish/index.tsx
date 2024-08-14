@@ -7,8 +7,8 @@ export default function MenuLateralEng() {
         <Image
           src="/img/fotodeperfil/minhafotodeperfil.png"
           alt="Minha foto de perfil"
-          height={110}
-          width={110}
+          height={150}
+          width={150}
           className="rounded-full mb-4"
         />
         <h1 className="text-[30px] font-semibold text-center">
