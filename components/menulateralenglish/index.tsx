@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function MenuLateralEng() {
   return (
     <div className="relative h-full lg:w-1/4 p-6 text-white flex flex-col items-center font-sans lg:fixed">
-      <div className="mt-10 flex flex-col items-center">
+      <div className="mt-20 flex flex-col items-center">
         <Image
           src="/img/fotodeperfil/minhafotodeperfil.png"
           alt="Minha foto de perfil"
