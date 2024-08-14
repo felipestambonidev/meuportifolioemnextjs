@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { VscGithubInverted } from "react-icons/vsc";
 
 export default function MenuLateralEng() {
   return (
@@ -28,7 +27,7 @@ export default function MenuLateralEng() {
           <button className="bg-orange-500 text-white py-2 lg:text-[13px] flex px-4 rounded">
             My GitHub
             <div className="pl-3 justify-center text-[17px]">
-              <VscGithubInverted  />
+              
             </div>
           </button>
         </div>
