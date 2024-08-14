@@ -3,18 +3,17 @@ import Image from "next/image";
 export default function MenuLateral() {
   return (
     <div className="relative h-full lg:w-1/4 p-6 text-white flex flex-col items-center font-sans lg:fixed">
-      <div className="mt-20 flex flex-col items-center">
+      <div className="mt-1 flex flex-col items-center">
         <Image
           src="/img/fotodeperfil/minhafotodeperfil.png"
           alt="Minha foto de perfil"
-          height={150}
-          width={150}
-          className="rounded-full mb-4"
+          height={110}
+          width={110}
         />
-        <h1 className="text-[30px] font-semibold text-center">
+        <h1 className="sm:text-[30px] xs:text-[23px] font-semibold text-center">
           Olá, sou <span className="text-orange-500">Felipe Stamboni.</span>
         </h1>
-        <h2 className="text-[25px] text-center">Desenvolvedor Front-End</h2>
+        <h2 className="sm:text-[25px] xs:text-[20px] text-center">Desenvolvedor Front-End</h2>
         <p className="text-center text-[17px] font-light mt-1">
           Minha primeira experiência como desenvolvedor Front-End foi na Eworks
           Labs em Munique, DE. Onde estagiava remotamente, tenho uma grande
