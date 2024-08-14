@@ -32,8 +32,8 @@ const Navbar: React.FC = () => {
           <Image
             src="/img/icons/brazil.png"
             alt="Language selector"
-            width={15}
-            height={15}
+            width={25}
+            height={25}
           />
           <span className={`ml-2 transform transition-transform text-white text-[10px] ${isDropdownOpen ? 'rotate-180' : ''}`}>
             ▼
