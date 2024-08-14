@@ -1,7 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaRegFilePdf } from "react-icons/fa6";
 import { VscGithubInverted } from "react-icons/vsc";
-
 
 export default function MenuLateral() {
   return (
@@ -16,7 +16,9 @@ export default function MenuLateral() {
         <h1 className="sm:text-[30px] xs:text-[23px] font-semibold text-center">
           Olá, sou <span className="text-orange-500">Felipe Stamboni.</span>
         </h1>
-        <h2 className="sm:text-[25px] xs:text-[20px] text-center">Desenvolvedor Front-End</h2>
+        <h2 className="sm:text-[25px] xs:text-[20px] text-center">
+          Desenvolvedor Front-End
+        </h2>
         <p className="text-center text-[17px] font-light mt-1">
           Minha primeira experiência como desenvolvedor Front-End foi na Eworks
           Labs em Munique, DE. Onde estagiava remotamente, tenho uma grande
@@ -31,7 +33,7 @@ export default function MenuLateral() {
             </div>
           </button>
           <button className="bg-orange-500 text-white py-2 lg:text-[13px] flex px-4 rounded">
-            Meu GitHub
+            <Link href="https://github.com/felipestambonidev">My GitHub</Link>
             <div className="pl-3 pt-1 sm:pt-0 justify-center text-[17px]">
               <VscGithubInverted />
             </div>

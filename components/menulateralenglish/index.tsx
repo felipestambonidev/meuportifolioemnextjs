@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaRegFilePdf } from "react-icons/fa6";
 import { VscGithubInverted } from "react-icons/vsc";
 
@@ -27,7 +28,7 @@ export default function MenuLateralEng() {
             </div>
           </button>
           <button className="bg-orange-500 text-white py-2 lg:text-[13px] flex px-4 rounded">
-            My GitHub
+            <Link href="https://github.com/felipestambonidev">My GitHub</Link>
             <div className="pl-3 pt-1 sm:pt-0 justify-center text-[17px]">
               <VscGithubInverted />
             </div>
