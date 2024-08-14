@@ -1,0 +1,35 @@
+import Image from "next/image";
+
+export default function MenuLateral() {
+  return (
+    <div className="relative h-full lg:w-1/4 p-6 text-white flex flex-col items-center font-sans lg:fixed">
+      <div className="mt-10 flex flex-col items-center">
+        <Image
+          src="/img/fotodeperfil/minhafotodeperfil.png"
+          alt="Minha foto de perfil"
+          height={110}
+          width={110}
+          className="rounded-full mb-4"
+        />
+        <h1 className="text-[30px] font-semibold text-center">
+          Olá, sou <span className="text-orange-500">Felipe Stamboni.</span>
+        </h1>
+        <h2 className="text-[25px] text-center">Desenvolvedor Front-End</h2>
+        <p className="text-center text-[17px] font-light mt-1">
+          Minha primeira experiência como desenvolvedor Front-End foi na Eworks
+          Labs em Munique, DE. Onde estagiava remotamente, tenho uma grande
+          paixão por computação, gosto de elaborar projetos e criar experiências
+          de usuário intuitivas e dinâmicas.
+        </p>
+        <div className="flex space-x-2 justify-center pt-5">
+          <button className="bg-orange-500 text-white lg:text-[13px] md:text-[12px] py-2 px-4 rounded">
+            Download meu CV
+          </button>
+          <button className="bg-orange-500 text-white py-2 lg:text-[13px] px-4 rounded">
+            Meu GitHub
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
