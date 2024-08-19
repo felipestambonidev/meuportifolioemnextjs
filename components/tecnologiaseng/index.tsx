@@ -4,6 +4,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa6";
@@ -16,51 +17,54 @@ const TecnologiasEng: React.FC = () => {
       <span className="block w-full h-1 bg-[#2E2D2D] my-4" />
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 sm:gap-6 md:gap-8 mt-10">
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
-          <FaHtml5 className="text-[#f15b29] text-5xl" />
+          <FaHtml5 className="text-[#f15b29] text-[40px]" />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
-          <FaCss3Alt className="text-[#1775BB] text-5xl" />
+          <FaCss3Alt className="text-[#1775BB] text-[40px]" />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
-          <IoLogoJavascript className="text-[#F7E025] text-5xl" />
+          <IoLogoJavascript className="text-[#F7E025] text-[40px]" />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
-          <SiTypescript className="text-[#1775BB] text-5xl" />
+          <SiTypescript className="text-[#1775BB] text-[40px]" />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
-          <RiNextjsFill className="text-black text-5xl" />
+          <FaNodeJs className="text-[#539e43] text-[40px]" />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
-          <FaReact className="text-[#61dafb] text-5xl" />
+          <RiNextjsFill className="text-black text-[40px]" />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
-          <FaGitAlt className="text-[#F05033] text-5xl" />
+          <FaReact className="text-[#61dafb] text-[40px]" />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
-          <FaGithub className="text-black text-5xl" />
+          <FaGitAlt className="text-[#F05033] text-[40px]" />
+        </div>
+        <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
+          <FaGithub className="text-black text-[40px]" />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
           <Image
             src="/img/tecnologias/figma.png"
             alt="Webpack"
-            width={48}
-            height={48}
+            width={40}
+            height={40}
           />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
           <Image
             src="/img/tecnologias/wordpress.png"
             alt="WordPress"
-            width={48}
-            height={48}
+            width={40}
+            height={40}
           />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
           <Image
             src="/img/tecnologias/elementor.png"
             alt="Elementor"
-            width={48}
-            height={48}
+            width={40}
+            height={40}
           />
         </div>
       </div>
