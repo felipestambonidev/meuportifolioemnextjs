@@ -13,13 +13,13 @@ export default function PerfilEng() {
           height={110}
           width={110}
         />
-        <h1 className="sm:text-[30px] xs:text-[23px] font-semibold text-center">
-          Hello, I am<span className="text-orange-500">Felipe Stamboni.</span>
+        <h1 className="lg:text-4xl xs:text-3xl font-semibold text-center">
+          Hello, I am <span className="text-orange-500">Felipe Stamboni.</span>
         </h1>
-        <h2 className="sm:text-[25px] xs:text-[20px] text-center">
+        <h2 className="lg:text-3xl xs:text-2xl text-center">
           Front-End Developer
         </h2>
-        <p className="text-center lg:text-[17px] font-light mt-1 w-96 sm:text-[15px]">
+        <p className="text-center lg:text-xl xs:text-[17px] font-light mt-1 w-96 ">
           My first experience as a Front-End developer was at Eworks Labs in
           Munich, DE. Where I was interning remotely, I have a great passion for
           computing, I enjoy designing projects and creating intuitive and
