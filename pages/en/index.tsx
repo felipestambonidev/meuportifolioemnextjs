@@ -2,6 +2,8 @@ import NavbarEng from "@/components/menucabecalhoenglish"
 import ProjetosWordPress from "@/components/meusprojetos/WordPress";
 import MeusProjetosEng from "@/components/meusprojetosenglish";
 import PerfilEng from "@/components/perfilenglish";
+import RodapeEng from "@/components/rodapeenglish";
+import Rodape from "@/components/rodapeenglish";
 import SobreMimEng from "@/components/sobremimenglish";
 import TecnologiasEng from "@/components/tecnologiaseng";
 
@@ -19,6 +21,9 @@ export default function HomeEn(){
 		   <MeusProjetosEng />
 		   <ProjetosWordPress />
 		 </section>
+		 <footer>
+			<RodapeEng/>
+		 </footer>
 		</div>
 	   );
 }
