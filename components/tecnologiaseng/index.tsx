@@ -12,7 +12,7 @@ import { FaGithub } from "react-icons/fa";
 
 const TecnologiasEng: React.FC = () => {
   return (
-    <div className="bg-[#1E1E1E] drop-shadow-lg p-5 xs:mx-8 lg:mx-52 w-auto mt-20 rounded-lg">
+    <div className="bg-[#1E1E1E] drop-shadow-lg p-5 xs:mx-8 lg:mx-52 w-auto mt-20 rounded-lg" id="tecnologias">
       <h1 className="lg:text-4xl xs:text-3xl text-white">Tecnologies</h1>
       <span className="block w-full h-1 bg-[#2E2D2D] my-4" />
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 sm:gap-6 md:gap-8 mt-10">

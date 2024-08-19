@@ -20,8 +20,8 @@ const Navbar: React.FC = () => {
 
       {/* Menu Principal (Desktop) */}
       <ul className="hidden md:flex items-center space-x-10">
-        <li><Link href="#" className="text-white text-xl font-light hover:text-orange-500">Sobre Mim</Link></li>
-        <li><Link href="#" className="text-white text-xl font-light hover:text-orange-500">Tecnologias</Link></li>
+        <li><Link href="#sobre-mim" className="text-white text-xl font-light hover:text-orange-500">Sobre Mim</Link></li>
+        <li><Link href="#tecnologias" className="text-white text-xl font-light hover:text-orange-500">Tecnologias</Link></li>
         <li><Link href="#" className="text-white text-xl font-light hover:text-orange-500">Meus Projetos</Link></li>
         <li><Link href="#" className="text-white text-xl font-light hover:text-orange-500">Entre em contato</Link></li>
       </ul>
@@ -67,8 +67,8 @@ const Navbar: React.FC = () => {
           </button>
         </div>
         <ul className="flex flex-col space-y-6 pl-4">
-          <li><Link href="#" className="text-white text-xl font-light hover:text-orange-500">Sobre Mim</Link></li>
-          <li><Link href="#" className="text-white text-xl font-light hover:text-orange-500">Tecnologias</Link></li>
+          <li><Link href="#sobre-mim" className="text-white text-xl font-light hover:text-orange-500">Sobre Mim</Link></li>
+          <li><Link href="#tecnologias" className="text-white text-xl font-light hover:text-orange-500">Tecnologias</Link></li>
           <li><Link href="#" className="text-white text-xl font-light hover:text-orange-500">Meus Projetos</Link></li>
           <li><Link href="#" className="text-white text-xl font-light hover:text-orange-500">Entre em contato</Link></li>
         </ul>
