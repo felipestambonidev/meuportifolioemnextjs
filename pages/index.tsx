@@ -10,6 +10,7 @@ export default function Home() {
     </nav>
     <section>
       <Perfil />
+      <SobreMim />
     </section>
    </div>
   );
