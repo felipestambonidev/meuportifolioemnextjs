@@ -4,7 +4,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa6";
@@ -12,7 +12,10 @@ import { FaGithub } from "react-icons/fa";
 
 const TecnologiasEng: React.FC = () => {
   return (
-    <div className="bg-[#1E1E1E] drop-shadow-lg p-5 xs:mx-8 lg:mx-52 w-auto mt-20 rounded-lg" id="tecnologias">
+    <div
+      className="bg-[#1E1E1E] drop-shadow-lg p-5 xs:mx-8 lg:mx-52 w-auto mt-20 rounded-lg"
+      id="tecnologias"
+    >
       <h1 className="lg:text-4xl xs:text-3xl text-white">Tecnologies</h1>
       <span className="block w-full h-1 bg-[#2E2D2D] my-4" />
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 sm:gap-6 md:gap-8 mt-10">
@@ -29,13 +32,13 @@ const TecnologiasEng: React.FC = () => {
           <SiTypescript className="text-[#1775BB] text-[40px]" />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
-          <FaNodeJs className="text-[#539e43] text-[40px]" />
-        </div>
-        <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
           <RiNextjsFill className="text-black text-[40px]" />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
           <FaReact className="text-[#61dafb] text-[40px]" />
+        </div>
+        <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
+          <RiTailwindCssFill className="text-[#20b0b9] text-[40px]" />
         </div>
         <div className="flex items-center justify-center bg-[#232323] rounded-md p-2 sm:p-3 md:p-4">
           <FaGitAlt className="text-[#F05033] text-[40px]" />
