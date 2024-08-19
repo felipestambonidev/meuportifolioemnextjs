@@ -1,6 +1,7 @@
 import NavbarEng from "@/components/menucabecalhoenglish"
 import PerfilEng from "@/components/perfilenglish";
 import SobreMimEng from "@/components/sobremimenglish";
+import TecnologiasEng from "@/components/tecnologiaseng";
 
 
 export default function HomeEn(){
@@ -12,6 +13,7 @@ export default function HomeEn(){
 		 <section>
 		   <PerfilEng />
 		   <SobreMimEng />
+		   <TecnologiasEng />
 		 </section>
 		</div>
 	   );
