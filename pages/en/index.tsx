@@ -1,17 +1,18 @@
 import NavbarEng from "@/components/menucabecalhoenglish"
-import MenuLateralEng from "@/components/menulateralenglish"
+import PerfilEng from "@/components/perfilenglish";
+
 
 export default function HomeEn(){
-	return(
+	return (
 		<div>
-			<section>
-				<NavbarEng />
-			</section>
-			<section>
-				<MenuLateralEng />
-			</section>
+		 <nav>
+		   <NavbarEng />
+		 </nav>
+		 <section>
+		   <PerfilEng />
+		 </section>
 		</div>
-	)
+	   );
 }
 
 	

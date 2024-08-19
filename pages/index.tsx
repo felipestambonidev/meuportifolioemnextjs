@@ -1,15 +1,17 @@
 import Navbar from "@/components/menucabecalho";
-import MenuLateral from "@/components/menulateral";
+import Perfil from "@/components/perfil";
+import SobreMim from "@/components/sobremim";
 
 export default function Home() {
   return (
    <div>
-    <section>
+    <nav>
       <Navbar />
+    </nav>
+    <section>
+      <Perfil />
     </section>
-      <section>
-        <MenuLateral />
-      </section>
    </div>
   );
 }
+
