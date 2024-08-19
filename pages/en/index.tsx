@@ -1,5 +1,6 @@
 import NavbarEng from "@/components/menucabecalhoenglish"
 import PerfilEng from "@/components/perfilenglish";
+import SobreMimEng from "@/components/sobremimenglish";
 
 
 export default function HomeEn(){
@@ -10,6 +11,7 @@ export default function HomeEn(){
 		 </nav>
 		 <section>
 		   <PerfilEng />
+		   <SobreMimEng />
 		 </section>
 		</div>
 	   );
