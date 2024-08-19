@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Menu Hamburguer */}
-      <div className={`fixed top-0 right-0 h-full w-1/2 bg-black z-10 transform transition-transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
+      <div className={`fixed top-0 right-0 h-full w-1/2  bg-black z-30 transform transition-transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
         <div className="flex justify-between items-center p-4">
           <span className="text-white text-xl" />
           <button onClick={toggleMenu} className="text-white text-3xl">
