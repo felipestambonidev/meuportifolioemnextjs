@@ -46,8 +46,8 @@ const ProjetosWordPress: React.FC = () => {
                 alt={projeto.nome}
                 className="rounded-lg mb-4" width={500} height={500}
               />
-              <h3 className="text-lg font-semibold sm:text-center lg:text-start">{projeto.nome}</h3>
-              <p className="text-sm sm:text-center lg:text-start">{projeto.link}</p>
+              <h3 className="text-lg font-semibold text-center lg:text-start">{projeto.nome}</h3>
+              <p className="text-sm text-center lg:text-start">{projeto.link}</p>
               <div className="absolute top-1/2 right-4 transform -translate-y-1/2 opacity-0 hover:opacity-100 transition-opacity duration-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
