@@ -5,7 +5,7 @@ import PerfilEng from "@/components/perfilenglish";
 import RodapeEng from "@/components/rodapeenglish";
 import Rodape from "@/components/rodapeenglish";
 import SobreMimEng from "@/components/sobremimenglish";
-import TecnologiasEng from "@/components/tecnologiaseng";
+import TecnologiasEng from "@/components/tecnologiasenglish";
 
 
 export default function HomeEn(){
