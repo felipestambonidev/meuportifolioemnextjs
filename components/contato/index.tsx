@@ -33,7 +33,7 @@ export default function Contato() {
   }
 
   return (
-    <div className="bg-[#1E1E1E] drop-shadow-lg p-5 xs:mx-8 lg:mx-52 w-auto mt-20 rounded-lg text-white">
+    <div className="bg-[#1E1E1E] drop-shadow-lg p-5 xs:mx-8 lg:mx-52 w-auto mt-20 rounded-lg text-white" id="entre-em-contato">
       <h1 className="lg:text-4xl xs:text-3xl">Entre em Contato</h1>
       <span className="block w-full h-1 bg-[#2E2D2D] my-4" />
       <form className="flex flex-col space-y-4" onSubmit={sendEmail}>

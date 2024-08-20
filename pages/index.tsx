@@ -1,3 +1,4 @@
+import BackToTopButton from "@/components/botaotopo";
 import Contato from "@/components/contato";
 import Navbar from "@/components/menucabecalho";
 import MeusProjetos from "@/components/meusprojetos";
@@ -20,6 +21,7 @@ export default function Home() {
       <MeusProjetos/>
       <ProjetosWordPress />
       <Contato />
+      <BackToTopButton />
     </section>
     <footer>
       <Rodape/>
