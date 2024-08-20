@@ -26,12 +26,14 @@ export default function PerfilEng() {
           {perfilengfe.bio}
         </p>
         <div className="flex space-x-2 justify-center pt-5">
-          <button className="bg-orange-500 text-white lg:text-[15px] flex md:text-[12px] py-2 px-4 rounded">
+          <a  href="/felipestambonicurriculoeng.pdf"  
+              download="Curriculum_FelipeStamboni.pdf"  
+              className="bg-orange-500 text-white lg:text-[15px] flex md:text-[12px] py-2 px-4 rounded">
             {perfilengfe.botaoum}
             <div className="pl-3 pt-1 sm:pt-0 justify-center text-[17px]">
               <FaRegFilePdf />
             </div>
-          </button>
+          </a>
           <button className="bg-orange-500 text-white py-2 lg:text-[15px] md:text-[12px] flex px-4 rounded">
             <Link href="https://github.com/felipestambonidev">{perfilengfe.botaodois}</Link>
             <div className="pl-3 pt-1 sm:pt-0 justify-center text-[17px]">
