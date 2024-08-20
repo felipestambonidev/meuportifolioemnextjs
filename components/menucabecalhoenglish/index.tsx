@@ -45,6 +45,14 @@ const NavbarEng: React.FC = () => {
           </Link>
         </li>
         <li>
+            <Link
+              href="#wordpress"
+              className="text-white text-xl font-light hover:text-orange-500"
+            >
+              WordPress
+            </Link>
+          </li>
+        <li>
           <Link
             href="#entre-em-contato"
             className="text-white text-xl font-light hover:text-orange-500"
@@ -138,6 +146,14 @@ const NavbarEng: React.FC = () => {
               className="text-white text-xl font-light hover:text-orange-500"
             >
               My Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#wordpress"
+              className="text-white text-xl font-light hover:text-orange-500"
+            >
+              WordPress
             </Link>
           </li>
           <li>
