@@ -1,3 +1,4 @@
+import Contato from "@/components/contato";
 import Navbar from "@/components/menucabecalho";
 import MeusProjetos from "@/components/meusprojetos";
 import ProjetosWordPress from "@/components/meusprojetos/WordPress";
@@ -18,6 +19,7 @@ export default function Home() {
       <Tecnologias />
       <MeusProjetos/>
       <ProjetosWordPress />
+      <Contato />
     </section>
     <footer>
       <Rodape/>
