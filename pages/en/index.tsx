@@ -19,7 +19,7 @@ export default function HomeEn(){
 		   <PerfilEng />
 		   <SobreMimEng />
 		   <TecnologiasEng />
-		   <MeusProjetosEng />
+		   {/* <MeusProjetosEng /> */}
 		   <ProjetosWordPress />
 		   <ContatoEng />
 		   <BackToTopButton />

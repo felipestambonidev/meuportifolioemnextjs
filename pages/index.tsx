@@ -18,7 +18,7 @@ export default function Home() {
       <Perfil />
       <SobreMim />
       <Tecnologias />
-      <MeusProjetos/>
+      {/* <MeusProjetos/> */}
       <ProjetosWordPress />
       <Contato />
       <BackToTopButton />
